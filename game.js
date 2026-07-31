@@ -27,7 +27,7 @@ document.getElementById("player");
 
 
 const playerImg =
-.querySelector("img");
+player.querySelector("img");
 
 
 const interactionPrompt =

@@ -1,0 +1,345 @@
+<svg 
+xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 64 80">
+
+<!-- sprite outline -->
+
+<g
+fill="none"
+stroke="#d6b85a"
+stroke-width="1.5"
+stroke-linejoin="round"
+stroke-linecap="round"
+opacity="0.8">
+
+<!-- hair outline -->
+
+<path
+d="
+M18 30
+C10 10,
+54 5,
+48 38
+L44 55
+H20
+Z"/>
+
+
+<!-- head outline -->
+
+<circle
+cx="32"
+cy="25"
+r="17"/>
+
+
+<!-- hair front outline -->
+
+<path
+d="
+M15 25
+C14 8,
+50 7,
+49 28
+C43 20,
+39 17,
+32 17
+C25 17,
+20 20,
+15 25
+Z"/>
+
+
+<!-- body outline -->
+
+<path
+d="
+M16 48
+Q32 42,
+48 48
+L52 70
+H12
+Z"/>
+
+
+<!-- arms outline -->
+
+<path
+d="
+M17 50
+L10 64"/>
+
+<path
+d="
+M47 50
+L54 64"/>
+
+
+<!-- legs outline -->
+
+<rect
+x="21"
+y="67"
+width="8"
+height="10"
+rx="4"/>
+
+<rect
+x="35"
+y="67"
+width="8"
+height="10"
+rx="4"/>
+
+
+<!-- shoes outline -->
+
+<ellipse
+cx="23"
+cy="77"
+rx="8"
+ry="3"/>
+
+<ellipse
+cx="41"
+cy="77"
+rx="8"
+ry="3"/>
+
+</g>
+
+
+<!-- shadow -->
+
+<ellipse
+cx="32"
+cy="76"
+rx="18"
+ry="4"
+fill="#c9b28a"
+opacity="0.35"/>
+
+
+<!-- hair back -->
+
+<path
+d="
+M18 30
+C10 10,
+54 5,
+48 38
+L44 55
+H20
+Z"
+fill="#f4c95d"/>
+
+
+<!-- head -->
+
+<circle
+cx="32"
+cy="25"
+r="17"
+fill="#ffe0b2"/>
+
+
+<!-- blonde hair -->
+
+<path
+d="
+M15 25
+C14 8,
+50 7,
+49 28
+C43 20,
+39 17,
+32 17
+C25 17,
+20 20,
+15 25
+Z"
+fill="#f6cf65"/>
+
+
+<!-- hair highlights -->
+
+<path
+d="
+M20 18
+C26 10,
+35 11,
+40 14"
+stroke="#ffe79a"
+stroke-width="4"
+fill="none"
+stroke-linecap="round"/>
+
+
+<!-- eyes -->
+
+<circle
+cx="25"
+cy="28"
+r="2"
+fill="#5b4636"/>
+
+<circle
+cx="39"
+cy="28"
+r="2"
+fill="#5b4636"/>
+
+
+<!-- smile -->
+
+<path
+d="
+M27 35
+Q32 39
+37 35"
+stroke="#8b5a5a"
+stroke-width="2"
+fill="none"
+stroke-linecap="round"/>
+
+
+<!-- neck -->
+
+<rect
+x="27"
+y="40"
+width="10"
+height="8"
+rx="3"
+fill="#ffe0b2"/>
+
+
+<!-- detailed pastel yellow shirt -->
+
+<path
+d="
+M16 48
+Q32 42,
+48 48
+L52 70
+H12
+Z"
+fill="#f8e7a2"/>
+
+
+<!-- collar -->
+
+<path
+d="
+M25 48
+L32 56
+L39 48"
+fill="none"
+stroke="#e7c96f"
+stroke-width="2"
+stroke-linejoin="round"/>
+
+
+<!-- sleeves -->
+
+<path
+d="
+M16 49
+Q12 51,
+13 57"
+fill="none"
+stroke="#e7c96f"
+stroke-width="2"/>
+
+<path
+d="
+M48 49
+Q52 51,
+51 57"
+fill="none"
+stroke="#e7c96f"
+stroke-width="2"/>
+
+
+<!-- shirt seam -->
+
+<path
+d="
+M32 57
+L32 69"
+stroke="#e7c96f"
+stroke-width="1.5"
+stroke-dasharray="2 2"/>
+
+
+<!-- buttons -->
+
+<circle
+cx="32"
+cy="59"
+r="1"
+fill="#d4ad55"/>
+
+<circle
+cx="32"
+cy="64"
+r="1"
+fill="#d4ad55"/>
+
+
+<!-- arms -->
+
+<path
+d="
+M17 50
+L10 64"
+stroke="#ffe0b2"
+stroke-width="7"
+stroke-linecap="round"/>
+
+<path
+d="
+M47 50
+L54 64"
+stroke="#ffe0b2"
+stroke-width="7"
+stroke-linecap="round"/>
+
+
+<!-- legs -->
+
+<rect
+x="21"
+y="67"
+width="8"
+height="10"
+rx="4"
+fill="#ffe0b2"/>
+
+<rect
+x="35"
+y="67"
+width="8"
+height="10"
+rx="4"
+fill="#ffe0b2"/>
+
+
+<!-- soft blue shoes -->
+
+<ellipse
+cx="23"
+cy="77"
+rx="8"
+ry="3"
+fill="#9fc9e8"/>
+
+<ellipse
+cx="41"
+cy="77"
+rx="8"
+ry="3"
+fill="#9fc9e8"/>
+
+
+</svg>

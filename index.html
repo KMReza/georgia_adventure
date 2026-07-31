@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>
+Georgia's Little Quest 💛
+</title>
+
+
+<link rel="stylesheet" href="style.css">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+
+
+
+
+<body>
+
+
+
+<!-- =====================================================
+INTRO SCREEN
+===================================================== -->
+
+
+<div id="intro">
+
+
+<div class="intro-card">
+
+
+<h1>
+Georgia's Little Quest 💛
+</h1>
+
+
+<p>
+A tiny adventure made just for you, my sweet Geo.</br></br>
+From, Keza 😊
+</p>
+
+
+<button id="startButton">
+Start Adventure
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- =====================================================
+GAME
+===================================================== -->
+
+
+<div id="game" hidden>
+
+
+
+<!-- HUD -->
+
+<div id="hud">
+
+
+<div id="questTitle">
+Georgia's Adventure
+</div>
+
+
+<div id="questProgress">
+Memories Found: 0 / 4
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- WORLD -->
+
+<div id="world">
+
+
+
+
+
+<!-- =====================================================
+     SCENERY (decorative, non-interactive)
+===================================================== -->
+
+<div id="scenery">
+
+<img class="world-decor path-layer" src="assets/pathways.svg" alt="">
+
+<img class="world-decor tree-decor"  style="left:14px;  top:10px;"  src="assets/tree.svg" alt="">
+<img class="world-decor tree-decor"  style="left:300px; top:6px;"   src="assets/tree.svg" alt="">
+<img class="world-decor tree-decor"  style="left:615px; top:12px;"  src="assets/tree.svg" alt="">
+<img class="world-decor tree-decor"  style="left:8px;   top:235px;" src="assets/tree.svg" alt="">
+<img class="world-decor tree-decor"  style="left:650px; top:295px;" src="assets/tree.svg" alt="">
+<img class="world-decor tree-decor"  style="left:8px;   top:420px;" src="assets/tree.svg" alt="">
+<img class="world-decor tree-decor"  style="left:475px; top:435px;" src="assets/tree.svg" alt="">
+<img class="world-decor tree-decor"  style="left:625px; top:420px;" src="assets/tree.svg" alt="">
+
+<img class="world-decor bush-decor"  style="left:55px;  top:115px;" src="assets/bush.svg" alt="">
+<img class="world-decor bush-decor"  style="left:255px; top:190px;" src="assets/bush.svg" alt="">
+<img class="world-decor bush-decor"  style="left:415px; top:205px;" src="assets/bush.svg" alt="">
+<img class="world-decor bush-decor"  style="left:470px; top:45px;"  src="assets/bush.svg" alt="">
+<img class="world-decor bush-decor"  style="left:560px; top:290px;" src="assets/bush.svg" alt="">
+<img class="world-decor bush-decor"  style="left:245px; top:445px;" src="assets/bush.svg" alt="">
+
+<img class="world-decor house-decor" style="left:95px;  top:355px;" src="assets/house.svg" alt="">
+
+</div>
+
+
+
+<!-- PLAYER -->
+
+
+<div id="player">
+
+
+<img 
+src="assets/georgia.svg"
+alt="Georgia"
+>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- =====================================================
+     WORLD OBJECTS
+===================================================== -->
+
+
+<!-- FLOWER SPIRIT NPC -->
+
+<div
+id="flowerSpirit"
+class="npc"
+style="
+left:77px;
+top:148px;
+">
+
+🌻
+
+<div class="npc-name">
+Flower Spirit
+</div>
+
+</div>
+
+
+
+
+
+<!-- BUTTERFLY NPC -->
+
+<div
+id="butterfly"
+class="npc"
+style="
+left:97px;
+top:278px;
+">
+
+🦋
+
+<div class="npc-name">
+Butterfly
+</div>
+
+</div>
+
+
+
+
+
+
+
+<!-- GARDEN TRIAL -->
+
+<div
+id="gardenChallenge"
+class="location locked"
+style="
+left:195px;
+top:80px;
+">
+
+🌱
+
+<span>
+Garden Trial
+</span>
+
+</div>
+
+
+
+
+
+
+
+<!-- CLOUDTOP PARKOUR -->
+
+<div
+id="parkourChallenge"
+class="location locked"
+style="
+left:365px;
+top:100px;
+">
+
+☁️
+
+<span>
+Cloudtop Parkour
+</span>
+
+</div>
+
+
+
+
+
+
+
+<!-- MEMORY MEADOW -->
+
+<div
+id="memoryChallenge"
+class="location locked"
+style="
+left:555px;
+top:120px;
+">
+
+🧩
+
+<span>
+Memory Meadow
+</span>
+
+</div>
+
+
+
+
+
+
+
+<!-- HEART LETTER -->
+
+<div
+id="heartChallenge"
+class="location locked"
+style="
+left:365px;
+top:370px;
+">
+
+💌
+
+<span>
+Heart Letter
+</span>
+
+</div>
+
+
+
+
+
+
+
+<!-- FINAL CHEST -->
+
+<div
+id="treasureChest"
+style="
+left:430px;
+top:260px;
+">
+
+🎁
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+INTERACTION
+===================================================== -->
+
+
+<div id="interactionPrompt" hidden>
+
+Press SPACE
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+DIALOGUE
+===================================================== -->
+
+
+<div id="dialogueBox" hidden>
+
+
+<div id="speaker">
+
+</div>
+
+
+
+<div id="dialogueText">
+
+</div>
+
+
+
+<button id="dialogueNext">
+
+Continue
+
+</button>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+CHALLENGE MODAL
+===================================================== -->
+
+
+<div id="challengeModal" hidden>
+
+
+<div id="challengeContent">
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+ENDING
+===================================================== -->
+
+
+<div id="ending" hidden>
+
+
+<div class="ending-card">
+
+
+<h1>
+Will you be my girlfriend Georgia?
+</h1>
+
+
+
+<button id="yesButton">
+Yes 💛
+</button>
+
+
+
+<button id="noButton">
+No
+</button>
+
+
+
+<div id="yesMessage" hidden>
+
+<h2>
+🥰 Yay!!
+</h2>
+
+
+<p>
+I can't wait to make more memories with you.
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- =====================================================
+SCRIPTS
+===================================================== -->
+
+
+<script src="dialogue.js"></script>
+
+<script src="challenges.js"></script>
+
+<script src="game.js"></script>
+
+<script src="finale.js"></script>
+
+
+
+</body>
+
+</html>

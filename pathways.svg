@@ -1,0 +1,36 @@
+<svg viewBox="0 0 700 500" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <g id="edgeLayer">
+      <path d="M230,280 Q150,200 97,168" />
+      <path d="M230,280 Q170,300 117,298" />
+      <path d="M230,280 Q220,180 215,100" />
+      <path d="M230,280 Q320,180 385,120" />
+      <path d="M230,280 Q420,175 575,140" />
+      <path d="M230,280 Q310,340 385,390" />
+      <path d="M230,280 Q350,290 455,285" />
+    </g>
+  </defs>
+
+  <!-- path shadow/edge -->
+  <use href="#edgeLayer" fill="none" stroke="#d9b877" stroke-width="24"
+       stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- path dirt fill -->
+  <use href="#edgeLayer" fill="none" stroke="#f3ddb0" stroke-width="15"
+       stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- soft clearing under the spawn point -->
+  <ellipse cx="230" cy="280" rx="40" ry="30" fill="#f3ddb0"/>
+  <ellipse cx="230" cy="280" rx="40" ry="30" fill="none" stroke="#d9b877" stroke-width="6"/>
+
+  <!-- small clearings at each destination -->
+  <circle cx="97" cy="168" r="22" fill="#f3ddb0"/>
+  <circle cx="117" cy="298" r="20" fill="#f3ddb0"/>
+  <circle cx="215" cy="100" r="22" fill="#f3ddb0"/>
+  <circle cx="385" cy="120" r="22" fill="#f3ddb0"/>
+  <circle cx="575" cy="140" r="22" fill="#f3ddb0"/>
+  <circle cx="385" cy="390" r="22" fill="#f3ddb0"/>
+  <circle cx="455" cy="285" r="24" fill="#f3ddb0"/>
+
+</svg>

@@ -27,7 +27,7 @@ document.getElementById("player");
 
 
 const playerImg =
-player.querySelector("img");
+.querySelector("img");
 
 
 const interactionPrompt =
@@ -121,10 +121,10 @@ const npcMet={
 const playerData={
 
 
-    x:220,
+    x:205,
 
 
-    y:260,
+    y:240,
 
 
     speed:3
